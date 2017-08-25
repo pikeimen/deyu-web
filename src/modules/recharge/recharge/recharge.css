@@ -1,0 +1,113 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-13 14:10:16
+*/
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.main {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.fl {
+	float: left; 
+}
+
+.fr {
+	float: right; 
+}
+
+.clear {
+	clear: both; 
+}
+
+
+
+/*  recharge-cont  */
+
+.recharge-cont {
+	padding: 0px 30px 50px 30px;
+	background: #fff;
+	border-top: 4px solid #c7c7c7;
+}
+
+.recharge-tit {
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 1px dashed #ccc; 
+}
+
+.recharge-list{
+	line-height: 56px;
+	font-size: 16px;
+	color: #666;
+	padding-left: 40px;
+	margin-top: 15px; 
+}
+
+.scanCode {
+	position: relative;
+	padding-top: 41px; 
+}
+
+.scanCode-tit {
+	width: 128px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-bottom: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2; 
+}
+
+.scanCode-QR-code {
+	font-size: 16px;
+	color: #666;
+	padding: 50px 45px;
+	border: 1px solid #e1e1e1;
+	z-index: 0; 	 
+}
+
+.QR-code-box {
+	width: 238px;
+	float: left; 
+}
+
+.QR-code-box + .QR-code-box {
+	margin-left: 100px; 
+}
+
+
+
+/*   */
+
+.pt30px {
+	padding-top: 30px; 
+}
+
+.pb50px {
+	padding-bottom: 50px; 
+}
+
+.mt30px {
+	margin-top: 30px; 
+}
+
+.mb20px {
+	margin-bottom: 20px; 
+}

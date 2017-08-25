@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- 禁止浏览器缓存的设置 -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>首页</title>
+    
+
+</head>
+<body>
+
+    
+
+	<!-- main start -->
+	<div class="main-index"> 
+        <div id="header" class="header index-header" activeIndex="0"></div>
+        <!-- info-box start -->
+    	<div class="info-box bg-f2f2f2 bg-banner">
+        	<!--   
+            <div class="info-bg">
+            	<div class="bg-header"></div>                                       
+            </div>
+            --> 
+            <div class="info-cont">
+            	<!--
+                <div class="info-l fl">
+                    <div class="info-l-top">
+                    	<div class="info-l-tit">
+                            <div>领涨热点的交易策略</div>
+                            <div class="fs16px mt10px">黄晓明</div>
+                        </div>
+                    </div>
+                    <div class="info-l-bottom">
+                    	<div class="info-l-cont text-long fl">现阶段需要权重企稳，热点助力，但现在主做热点的私募资金并没大幅进攻，容易出现一步两回头的走势容易出现一步两回头的走势</div>
+                        <a class="icon-arrow-red fl">查看详情</a>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                -->
+                <div class="info-r fr">
+                	<div class="info-r-tit"><h5 onclick="location.href='../info/list.html'">资讯头条</h5></div>
+                    <ul id="ul-topNoticeList" class="info-r-list">
+                        <script id="queryNoticeListTpl" type="text/html">
+                        <!for(var i=0;i<items.length;i++){!>
+                            <li>
+                                <div class="info-r-img fl"><a target="_blank" href="../info/detail.html?id=<!:=items[i].id!>"><img width="50px" height="50px" src="<!:=items[i].imageUrl!>" /></a></div>
+                                <div class="info-r-cont fl">
+                                    <a target="_blank" class="text-long" href="../info/detail.html?id=<!:=items[i].id!>"><!:=items[i].title!></a>
+                                    <div class="info-r-date"><!:=items[i].publishTimeSrc!></div>	
+                                </div>
+                                <div class="clear"></div>
+                            </li>
+                        <!}!>
+                        </script>
+                    </ul>
+                    <div class="info-r-bottom"></div>                	
+                </div>
+                <div class="clear"></div>
+            </div> 
+        </div> 
+        <!-- info-box end -->  
+        
+        <!-- course-box start -->
+    	<div class="bg-f2f2f2">
+        	<div class="course-cont box-cont">
+            	<h4 class="box-tit">人气课程</h4>
+                <ul class="course-list">
+                	<li id="l-hotCourse-0"></li>
+                    <li id="l-hotCourse-1"></li>
+                    <li id="l-hotCourse-2"></li>
+                    <li id="l-hotCourse-3" class="ml0px"></li>
+                    <li id="l-hotCourse-4"></li>
+                    <li id="l-hotCourse-5"></li>
+                </ul>
+                <div class="clear"></div>
+            </div> 
+        </div> 
+        <!-- course-box end -->
+        
+        <!-- tutor-box start -->
+    	<div>
+        	<div id="d-lecturershow" name="d-lecturershow" class="tutor-cont box-cont">
+            	<h4 class="box-tit">金牌导师</h4>
+                <div class="detail-slide">
+                    <div class="tutor-big">
+                        <img src="../img/img-tutor-big-01.jpg" />
+                        <div class="loading"></div>
+                    </div>
+                    <div class="tutor-small">
+                        <ul>
+                            <li class="active">
+                                <div class="active-border"></div>
+                                <div class="tutor-small-img"><img src="../img/img-tutor-small-01.jpg" bigsrc="../img/img-tutor-big-01.jpg"></div>
+                                <div class="tutor-small-text"><div class="fs16px">德善老师</div><div>金牌分析师</div></div>
+                            </li>
+                            <li>
+                                <div class="active-border"></div>
+                                <div class="tutor-small-img"><img src="../img/img-tutor-small-02.jpg" bigsrc="../img/img-tutor-big-01.jpg"></div>
+                                <div class="tutor-small-text"><div class="fs16px">徐老师</div><div>首席分析师</div></div>
+                            </li>
+                            <li>
+                                <div class="active-border"></div>
+                                <div class="tutor-small-img"><img src="../img/img-tutor-small-03.jpg" bigsrc="../img/img-tutor-big-01.jpg"></div>
+                                <div class="tutor-small-text"><div class="fs16px">夏洺老师</div><div>首席分析师</div></div>
+                            </li>
+                            <li>
+                                <div class="active-border"></div>
+                                <div class="tutor-small-img"><img src="../img/img-tutor-small-04.jpg" bigsrc="../img/img-tutor-big-01.jpg"></div>
+                                <div class="tutor-small-text"><div class="fs16px">芸龙老师</div><div>金牌分析师</div></div>
+                            </li>
+                            <li>
+                                <div class="active-border"></div>
+                                <div class="tutor-small-img"><img src="../img/img-tutor-small-more.jpg" bigsrc="../img/img-tutor-big-01.jpg"></div>
+                                <div class="tutor-small-text"><div class="fs16px">&nbsp;</div><div>&nbsp;</div></div>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- tutor-box end -->
+        
+        <!-- advantage-box start -->
+    	<div class="bg-f2f2f2">
+        	<div class="advantage-cont box-cont">
+            	<h2 class="advantage-tit">得鱼领先投教行业的优势</h2>
+                <ul class="advantage-list">
+                	<li class="icon-advantage-01">
+                    	<h3>权威师资</h3>
+                        <div>从一百位知名投教老师中筛选得出</div>
+                    </li>
+                    <li class="icon-advantage-02">
+                    	<h3>专业课程</h3>
+                        <div>精选更专业、更系统的课程</div>
+                    </li>
+                    <li class="icon-advantage-03">
+                    	<h3>极限服务</h3>
+                        <div>得鱼让每一个投资者都负担得起一对一</div>
+                    </li>
+                </ul>
+                <div class="clear"></div>   
+            </div>
+        </div> 
+        <!-- advantage-box end -->
+        
+        <!-- 页面底部 -->
+        <div id="footer" class="footer"></div>
+
+    </div>
+    <!-- main end -->
+
+</body>
+</html>

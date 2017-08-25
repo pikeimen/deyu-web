@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- 禁止浏览器缓存的设置 -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>视频播放</title>
+    
+
+</head>
+<body>
+    
+    <!-- 页面头部 -->
+    <div id="header" class="header" activeIndex="1"></div>
+
+    
+    <!-- 网站当前位置 -->
+    <div class="posi bg-f2">
+        <div>
+            <a href="searchCourse.html">全部课程</a> <i>&nbsp;</i> <span id="location1">主力操盘大解密之价格的秘密</span> <i>&nbsp;</i> 视频播放    
+        </div>
+    </div>
+
+    <!-- 视频播放 -->
+    <div class="play-video">
+        <div class="container">
+                <!-- 视频列表、播放器 -->
+                <div id="videoDetail" class="play">
+                    <script id="videoDetailTpl" type="text/html">
+                        <div class="video-list">
+                            <p class="title"><!:=title!></p>
+                            <p class="teach">导师：<!:=teacher!></p>
+                            <div class="list">
+                                <!for(var i=0;i<records.length;i++){!>
+                                    <div class="item" onclick="VIDEO.goVideoDetail(<!:=records[i].id!>)">
+                                        <p>
+                                            <i></i>
+                                            <span><!:=records[i].title!></span>
+                                            <!if(records[i].isFree==1){!>
+                                                <a class="pay">付费</a>
+                                            <!}else{!>
+                                                <a class="free">免费</a>
+                                            <!}!>
+                                        </p>
+                                    </div>
+                                <!}!>
+                            </div>
+                        </div>
+                        <div class="playing">
+                            <div class="player">
+                                <!if(!path){!>
+                                    <div class="no-play"><div>无法播放</div></div>    
+                                <!}!>
+                                <video id="video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" poster="<!:=cover!>" width="900" height="500">
+                                    <source src="<!:=path!>" type="video/mp4"/>
+                                    <source src="<!:=path!>" type="video/webm"/>
+                                    <source src="<!:=path!>" type="video/ogg"/>
+                                </video>
+                            </div>
+                            <div class="play-other">
+                                <div class="next-last">
+                                    <!if(!prevVideoId){!>
+                                        <a class="disabled last"> &lt; 上一课</a>
+                                    <!}else{!>
+                                        <a class="last" onclick="VIDEO.goVideoDetail(<!:=prevVideoId!>)"> &lt; 上一课</a>
+                                    <!}!>
+                                    <!if(!nextVideoId){!>
+                                        <a class="disabled next"> 下一课 &gt; </a>
+                                    <!}else{!>
+                                        <a class="next" onclick="VIDEO.goVideoDetail(<!:=nextVideoId!>)"> 下一课 &gt; </a>
+                                    <!}!>
+                                </div>
+                                <div class="video-intro">
+                                    <p>视频简介：</p>
+                                    <p><!:=description!></p>
+                                </div>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+                
+
+                <!-- 相关推荐 -->
+                <div class="other">
+                    <p class="title">相关推荐</p>
+                    <div id="otherList" class="list">
+                        <script id="otherListTpl" type="text/html">
+                            <!for(var i=0;i<body.length;i++){!>
+                                <div class="item" onclick="location.href='detail.html?videogroupId=<!:=body[i].id!>'">
+                                    <img src="<!:=body[i].image!>"/>
+                                    <div>
+                                        <p class="first"><!:=body[i].title!></p>
+                                        <p class="last"><!:=body[i].description!></p>
+                                    </div>
+                                </div>
+                            <!}!>
+                        </script>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <!-- 页面底部 -->
+    <div id="footer" class="footer"></div>
+
+    
+
+</body>
+</html>

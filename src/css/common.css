@@ -1,0 +1,334 @@
+/*
+* @Author: vip
+* @Date:   2017-07-20 11:13:09
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-21 16:12:29
+*/
+
+/**************** 相关推荐  ****************************/
+.container .other{
+    margin: 100px 0 50px 0;
+}
+.container .other .title{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.container .other .list{
+    overflow: hidden;
+}
+.container .other .list .item{
+    float: left;
+    width: 220px;
+    margin-right: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.container .other .list .item img{
+    width: 100%;
+}
+.container .other .list .item .first{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.container .other .list .item .last{
+    font-size: 14px;
+    color: #666666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.container .other .list .item:last-child{
+    margin-right: 0;
+}
+.container .other .list .item > div{
+    padding: 10px 15px;
+}
+
+/**************** 网站当前位置 ************************/
+.posi > div{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 25px 0;
+    font-size: 14px;
+}
+.posi.bg-f2{
+	background-color: #f2f2f2;
+}
+.posi i{
+    margin: 0 6px 0 5px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/course-detail01.png) no-repeat center center;
+}
+
+/**** 我的设置（部分公共样式） *******/
+.container.pt-30{
+    padding-top: 30px;
+}
+.container .settings,
+.container .right-part-container{
+    float: left;
+}
+.container .settings{
+    width: 120px;
+    font-size: 16px;
+}
+.container .settings p{
+    margin-bottom: 15px;
+    color: #333333;
+    font-weight: bolder;
+}
+.container .settings a{
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+}
+.container .settings a.active{
+    font-weight: bolder;
+    color: #c00;
+}
+.container .right-part-container{
+    margin: 0 0 20px 0;
+    width: 1080px;
+}
+.container .right-part{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+.container .right-part .title{
+    padding: 9px 7px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: solid 3px #e0e0e0;
+}
+.container .right-part .title p{
+    padding: 0 6px;
+    border-left: solid 3px #c00;
+}
+ 
+/**** 分页组件的样式 *******/
+#pagination1{
+    float: right;
+}
+.pagination {
+    margin: 20px 0
+}
+.pagination ul {
+    display: inline-block;
+    *display: inline;
+    margin-bottom: 0;
+    margin-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    *zoom: 1;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05)
+}
+
+.pagination ul>li {
+    display: inline;
+}
+
+.pagination ul>li>a,.pagination ul>li>span {
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination ul>li>a:hover,.pagination ul>li>a:focus,.pagination ul>.active>a,.pagination ul>.active>span {
+    background-color: #f5f5f5
+}
+
+.pagination ul>.active>a,.pagination ul>.active>span {
+    color: #999;
+    cursor: default
+}
+
+.pagination ul>.disabled>span,.pagination ul>.disabled>a,.pagination ul>.disabled>a:hover,.pagination ul>.disabled>a:focus {
+    color: #999;
+    cursor: default;
+    background-color: transparent
+}
+
+.pagination ul>li:first-child>a,.pagination ul>li:first-child>span {
+    border-left-width: 1px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px
+}
+
+.pagination ul>li:last-child>a,.pagination ul>li:last-child>span {
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px
+}
+
+.pagination-centered {
+    text-align: center
+}
+
+.pagination-right {
+    text-align: right
+}
+
+.pagination-large ul>li>a,.pagination-large ul>li>span {
+    padding: 11px 19px;
+    font-size: 17.5px
+}
+
+.pagination-large ul>li:first-child>a,.pagination-large ul>li:first-child>span {
+    -webkit-border-bottom-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-topleft: 6px
+}
+
+.pagination-large ul>li:last-child>a,.pagination-large ul>li:last-child>span {
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px
+}
+
+.pagination-mini ul>li:first-child>a,.pagination-small ul>li:first-child>a,.pagination-mini ul>li:first-child>span,.pagination-small ul>li:first-child>span {
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topleft: 3px
+}
+
+.pagination-mini ul>li:last-child>a,.pagination-small ul>li:last-child>a,.pagination-mini ul>li:last-child>span,.pagination-small ul>li:last-child>span {
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px
+}
+
+.pagination-small ul>li>a,.pagination-small ul>li>span {
+    padding: 2px 10px;
+    font-size: 11.9px
+}
+
+.pagination-mini ul>li>a,.pagination-mini ul>li>span {
+    padding: 0 6px;
+    font-size: 10.5px
+}
+#pagination1 ul>li:first-child>a, 
+#pagination1 ul>li:last-child>a{
+    border-radius: 0;
+    background-color: #fff; 
+    color: #666666;
+}
+#pagination1 ul>li:first-child>a{
+    margin-right: 20px;
+}
+#pagination1 ul>li:last-child>a{
+    margin-left: 20px;
+}
+#pagination1 ul>.active>a,
+#pagination1 ul>.active>a:hover{
+    background-color: #c00;
+    color: #fff;
+    border: solid 1px #c00;
+} 
+#pagination1 ul>li a:hover{
+    border: solid 1px #c00;
+    color: #c00;
+    background-color: #fff;
+}
+
+#pagination1 ul>li:first-child>a.active, 
+#pagination1 ul>li:last-child>a.active,
+#pagination1 ul>li.active:first-child>a, 
+#pagination1 ul>li.active:last-child>a{
+    background-color: #eeeeee;
+    color: #ccc;
+    border-color: #eeeeee;
+}
+.deyu-pagination{
+    overflow: hidden;
+    color: #333333;
+}
+.deyu-pagination > div{
+    height: 28px;
+    line-height: 28px;
+    float: right;
+    margin: 20px 0;
+}
+.deyu-pagination > div input[type="text"]{
+    float: left;
+    margin-left: 10px;
+    width: 35px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: solid 1px #ddd;
+}
+.deyu-pagination .go-to{
+    margin-left: 20px;
+}
+.deyu-pagination .go-to > div{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+}
+.deyu-pagination .go-to .add-cut{
+    margin-left: 5px;
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+}
+.deyu-pagination .go-to .add-cut span{
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    border: solid 1px #ddd;
+    cursor: pointer;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.deyu-pagination .go-to .add-cut span:hover{
+    border-color: #c00;
+}
+.deyu-pagination .go-to .add-cut .add{
+    top: 0;
+    background-image: url(../img/add.png);
+}
+.deyu-pagination .go-to .add-cut .cut{
+    top: 15px;
+    background-image: url(../img/cut.png);
+}
+.deyu-pagination .go-to .add-cut .add:hover{
+    background-image: url(../img/add-hover.png);
+}
+.deyu-pagination .go-to .add-cut .cut:hover{
+    background-image: url(../img/cut-hover.png);
+}

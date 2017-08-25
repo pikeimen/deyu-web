@@ -1,0 +1,125 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-13 14:10:16
+*/
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+a {
+	cursor: pointer; 
+}
+
+a:hover {
+	color: #cc0000;
+	text-decoration: none; 
+}
+
+.main {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.fl {
+	float: left; 
+}
+
+.fr {
+	float: right; 
+}
+
+.clear {
+	clear: both; 
+}
+
+.text-c {
+	text-align: center; 
+}
+
+.c-666 {
+	color: #666; 
+}
+
+
+
+/* info-cont */
+
+.info-cont {
+	padding: 50px;
+	color: #333;
+	background: #fff;
+	border-top: 2px solid #cc0000; 
+}
+
+.info-cont h2 {
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px; 
+}
+
+.info-cont p {
+	line-height: 22px;
+	text-indent: 2em;
+	margin-top: 25px; 
+}
+
+.info-cont .text-indent0 {
+	text-indent: 0em; 
+}
+
+.info-cont .mt60px {
+	margin-top: 60px; 
+}
+
+.info-cont p img {
+    margin: 0 auto;
+	display: block;
+}
+
+.btn-previous,.btn-next {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	border-radius: 3px; 
+}
+
+.btn-previous,.btn-previous:hover {
+	padding-left: 60px;
+	color: #666;
+	background: #fff url(../../../img/info-arrow-left.png) no-repeat 30px center;
+	border: 1px solid #666; 
+}
+
+.btn-next,.btn-next:hover {
+	padding-left: 30px;
+	color: #fff;
+	background: #cc0000 url(../../../img/info-arrow-right.png) no-repeat 110px center;
+	border: 1px solid #cc0000;
+}
+
+
+
+/*   */
+
+.pb70px {
+	padding-bottom: 70px; 
+}
+
+.mt25px {
+	margin-top: 25px; 
+}
+
+.mt35px {
+	margin-top: 35px; 
+}
+
+.mt90px {
+	margin-top: 90px; 
+}

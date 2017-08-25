@@ -1,0 +1,249 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-25 16:52:29
+*/
+.course-intro{
+    background: url(../../../img/course-detail02.jpg) no-repeat center center;
+    color: #fff;
+}
+.course-intro>div{
+    margin: 0 auto;
+    padding: 0 240px 0 0;
+    width: 880px;
+}	
+.course-intro>div h3{
+    padding:50px 0 30px 0;
+    font-size: 32px;
+}
+.course-intro>div p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.course-intro>div p:last-child{
+    padding: 17px 0 30px;
+}
+.course-detail{
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+.course-detail .teach-intro{
+    margin: 30px 0 30px 155px;
+    padding: 30px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.course-detail .teach-intro > div{
+    float: left;
+}
+.course-detail .teach-intro .teach{
+    margin-right: 30px;
+}
+.course-detail .teach-intro .teach img{
+    border-radius: 50%;
+}
+.course-detail .teach-intro .teach p{
+    margin: 15px 0 0 0;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+.course-detail .teach-intro .intro{
+    width: 790px;
+}
+.course-detail .teach-intro .intro p{
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.course-detail .teach-intro .intro p:first-child{
+    margin-bottom: 10px;
+    color: #cc0000;
+    font-size: 16px;
+}
+.course-detail .course-list > div{
+    margin: 30px 0 30px 155px;
+    background-color: #fff;
+      overflow: hidden;
+}
+.course-detail .course-list > div h2{
+    background-color: #f2f2f2;
+    padding: 20px 0 15px 0;
+}
+.course-detail .course-list .list{
+    /* height: 594px;
+    overflow: hidden; */
+    margin: 10px 0 0;
+    padding: 25px;
+}
+.course-detail .course-list .list .item{
+    margin-bottom: 25px;
+    padding: 13px 20px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.course-detail .course-list .list .item:last-child{
+    margin-bottom: 0;
+}
+.course-detail .course-list .list .item:hover{
+    background-color: #eeeeee;
+}
+.course-detail .course-list .list .item p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+} 
+.course-detail .course-list .list .item p:first-child{
+    padding-right: 70px;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.course-detail .course-list .list .item p:last-child{
+    font-size: 14px;
+}
+.course-detail .course-list .list .item p i{
+    margin: 1px 6px 0 5px;
+    display: inline-block;
+    float: left;
+    width: 21px;
+    height: 15px;
+    background-image: url(../../../img/course-detail04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.course-detail .course-list .list .item:hover p i{
+    background-image: url(../../../img/course-detail05.jpg);
+}
+.course-detail .course-list .list .item p a{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.course-detail .course-list .list .item p .free{
+    color: #007f24;
+}
+.course-detail .course-list .list .item p .pay{
+    color: #cc0000;
+}
+.course-detail .course-list .load-more{
+    display: none;
+    margin: 25px;
+    padding: 25px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: #b0b0b0;
+}
+.course-detail .course-list .load-more:hover{
+    color: #b0b0b0;
+}
+.float-nav{
+    display: none;
+    width: 140px;
+    position: fixed;
+    top: 50%;
+    left: 7%;
+    z-index: 2;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+}
+.float-nav a,
+.float-nav div{
+    width: 120px;
+    padding: 40px 0;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px #ccc;
+    border-bottom: 0;
+}
+.float-nav a:hover{
+    text-decoration: none;
+}
+.float-nav a.active{
+    color: #cc0000;
+    border-right: solid 3px #cc0000;
+    text-decoration: none;
+}
+.float-nav div{
+    padding: 30px 0;
+    background-color: #cc0000;
+    color: #fff;
+    cursor: pointer;
+}
+.float-nav div p:first-child{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.float-nav div p:last-child{
+    font-size: 14px;
+}
+/************ 购买弹框 *************************/
+.CD-modal{
+    text-align: center;
+}
+.CD-modal .modal-dialog{
+    width: 500px;
+}
+.CD-modal .modal-dialog .modal-content{
+    border-radius: 0;
+}
+.CD-modal .modal-header{
+    background-color: #cc0000;
+    color: #fff;
+    border: 0;
+}
+.CD-modal .modal-header h4{
+    font-size: 20px;
+}
+.CD-modal .modal-header .close{
+    opacity: 1;
+    color: #fff;
+    outline: none;
+}
+.CD-modal .modal-body .p1{
+    margin: 20px 0 45px;
+    color: #333333;
+    font-size: 22px;
+}
+.CD-modal .modal-body .p2{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.CD-modal .modal-body .p3{
+    font-size: 16px;
+    color: #cc0000;
+}
+.CD-modal .modal-footer{
+    margin: 20px 0 15px;
+    border: 0;
+    text-align: center;
+}
+.CD-modal .modal-footer button{
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    outline: 0;
+    border-radius: 0;
+    font-size: 16px;
+}
+.CD-modal .modal-footer button.confirm{
+    margin-right: 25px;
+    background-color: #c00;
+    color: #fff;
+}
+.CD-modal .modal-footer button.cancel{
+    background-color: #fff;
+    color: #666666;
+    border: solid 1px #666666;
+}

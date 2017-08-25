@@ -1,0 +1,293 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-26 09:15:23
+*/
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+a {
+	cursor: pointer; 
+}
+
+a:hover {
+	color: #cc0000;
+	text-decoration: none; 
+}
+
+.main {
+	width: 1190px;
+	min-height: 750px;
+	margin: 0px auto;
+}
+
+.fl {
+	float: left; 
+}
+
+.fr {
+	float: right; 
+}
+
+.clear {
+	clear: both; 
+}
+
+.text-long{   
+    width: 100%;  
+    overflow: hidden;   
+    text-overflow: ellipsis; 
+	display: -webkit-box; 
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.text-r {
+	text-align: right; 
+}
+
+.c-blue {
+	color: #5a8ac1; 
+}
+
+.c-999 {
+	color: #999; 
+}
+
+
+
+/* nav-tabs */
+
+.nav-tabs > li {
+    margin-bottom: 0px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav > li > a {
+    padding: 0px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #fff;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	font-weight: bold;
+    color: #cc0000;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+/* form */
+
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.col-sm-3,.col-sm-6,.col-sm-10 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-sm-3 {
+    width: 100px;
+}
+
+.col-sm-6 {
+    width: 320px;
+	margin-left: -100px;
+}
+
+.col-sm-10 {
+    width: 320px;
+}
+
+.col-sm-offset-2 {
+    margin-left: 0px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 0px;
+	padding-left: 20px;
+    margin-bottom: 0;
+    text-align: left;
+	font-weight: normal;
+	font-size: 14px; 
+	color: #999;
+	line-height: 50px;
+	z-index: 2;
+	cursor: text;
+}
+
+.form-control {
+    height: 50px;
+    padding: 0px 20px 0px 100px;
+    color: #333;
+	text-align: right;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: #cc0000;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(204,0,0,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(204,0,0,.6);
+}
+
+.has-error .form-control::-moz-placeholder{ 
+	color: #cc0000;
+}
+.has-error .form-control:-ms-input-placeholder{ 
+	color: #cc0000;
+}
+.has-error .form-control::-webkit-input-placeholder{ 
+	color: #cc0000; 
+}
+
+.btn {
+    padding: 0px;
+    border-radius: 0px;
+	color: #cc0000;
+    background-color: #fff;
+    border-color: #cc0000;
+}
+
+.btn.focus,.btn:focus,.btn:hover {
+	color: #cc0000;	 
+}
+
+.btn-default,.btn-default:hover,.btn-default:active:focus,.btn-default:focus,.btn-default:active,.btn-default:visited {
+    color: #fff;
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
+
+
+/* register */
+
+.cont {
+	width: 320px;
+	margin: 0px auto;
+	margin-top: 150px; 
+}
+
+.logo {
+	width: 195px;
+	height: 78px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	background: url(../../../img/register-logo.png) no-repeat center;
+	cursor: pointer;
+}
+
+.nav-tabs-register {
+	border-bottom: 2px solid #cc0000; 
+}
+
+.nav-tabs-register li {
+	font-size: 18px;
+	padding-bottom: 10px; 
+}
+
+.nav-tabs-register li + li {
+	margin-left: 50px; 
+}
+
+.nav-tabs-register li a {
+	line-height: 18px; 
+}
+
+.ml100px {
+	margin-left: 100px; 
+}
+
+.ml-130px {
+	margin-left: -130px; 
+}
+
+.ml-130px .form-control {
+	padding-left: 130px; 
+}
+
+.w130px {
+	width: 130px; 
+}
+
+.w351px {
+	width: 351px; 
+}
+
+.btn-getValidationCode,.btn-getValidationCode:focus,.btn-getValidationCode:hover {
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	color: #999;
+	background: #eee;
+	border-color: #eee; 
+}
+
+.form-register .btn-default {
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.form-horizontal .form-group .input-imgcode{
+	position: relative;
+}
+.form-horizontal .form-group .input-imgcode #refresh-imgcode{
+	position: absolute;
+	right: -33px;
+	top: 0;
+	z-index: 1;
+}
+/*  */
+
+.w230px {
+	width: 230px; 
+}
+
+.mt20px {
+	margin-top: 20px; 
+}
+
+.mt30px {
+	margin-top: 30px; 
+}
+
+.ml10px {
+	margin-left: 10px; 
+}
+
+.img-validationCode {
+	width: 80px;
+	height: 50px;
+	line-height: 45px;
+	border: 1px solid #ccc;
+	cursor: pointer; 
+}
+
+.icon-refresh {
+	width: 21px;
+	height: 50px;
+	background: url(../../../img/icon-refresh.png) no-repeat left center;
+	display: block;
+}

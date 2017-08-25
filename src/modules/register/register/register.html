@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- 禁止浏览器缓存的设置 -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>注册</title>
+    
+
+</head>
+<body>
+
+	<!-- main start -->
+	<div class="main"> 
+    
+        <!-- cont start -->
+        <div class="cont"> 
+        
+        	<div class="logo" onclick="javascript:window.location.href='../index/index.html';"></div>
+            
+            <ul class="nav nav-tabs nav-tabs-register">
+                <li class="active ml100px"><a href="#register" data-toggle="tab">注册</a></li>
+                <li><a href="#login" data-toggle="tab">登录</a></li>
+            </ul>
+            <div class="clear"></div>
+            
+            <div class="tab-content mt30px">
+            
+            	<!--Tab1 start-->
+                <form class="tab-pane fade in active form-horizontal form-register" id="register">
+                	<div class="form-group">
+                        <label for="reg_name" class="col-sm-3 control-label">姓名</label>
+                        <div class="col-sm-6">
+                        	<input class="form-control" type="text" id='reg_name'/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg_mobile" class="col-sm-3 control-label">手机号</label>
+                        <div class="col-sm-6">
+                        	<input class="form-control" type="text" id='reg_mobile' maxlength="11"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg_imageCode" class="col-sm-3 control-label">图形验证码</label>
+                        <div class="col-sm-6 input-imgcode">
+                            <input class="form-control w230px fl" type="text" id='reg_imageCode'/>
+                            <div class="img-validationCode ml10px fl"><img id='reg_image' src="" width='78px'/></div>
+                            <div class="ml10px fl" id="refresh-imgcode"><a class="icon-refresh" id='reg_image_refresh'></a></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg_mobileCode" class="col-sm-3 control-label">短信验证码</label>
+                        <div class="col-sm-6">
+                            <input class="form-control w230px fl" type="text" id='reg_mobileCode'/>
+                            <input type="hidden" id='reg_mobileKey'/>
+                            <div class="ml10px fl"><a class="btn btn-getValidationCode" id='reg_sendMobileCode'>发送验证码</a></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg_password" class="col-sm-3 control-label">密码</label>
+                        <div class="col-sm-6">
+                        	<input class="form-control" type="password" id='reg_password'/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg_rePassword" class="col-sm-3 control-label w130px">请再次输入密码</label>
+                        <div class="col-sm-6 ml-130px">
+                        	<input class="form-control" type="password" id='reg_rePassword'/>
+                        </div>
+                    </div>
+                    <div class="form-group mt30px">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-default" id='submitRegister'>注册</button>
+                            <div id='regMsg' class="error"></div>
+                            <div class="c-999 mt20px">点击注册按钮，即代表你同意<a class="c-blue">《得鱼协议》</a></div>
+                        </div>
+                    </div>
+                </form>
+                <!--Tab1 end-->
+                
+                <!--Tab2 start-->
+                <form class="tab-pane fade form-horizontal form-register" id="login">
+                	<div class="form-group">
+                        <label for="loginAccount" class="col-sm-3 control-label w130px">手机号</label>
+                        <div class="col-sm-6 ml-130px">
+                        	<input class="form-control" type="text" id='loginAccount' maxlength="11"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPwd" class="col-sm-3 control-label">密码</label>
+                        <div class="col-sm-6">
+                        	<input class="form-control" type="password" id='loginPwd'/>
+                        </div>
+                    </div>
+                    <div class="form-group mt30px">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-default" id='submitLogin'>登录</button>
+                            <div id='loginMsg' class="error"></div>
+                            <div class="c-999 text-r mt20px"><a class="c-blue" href="../register/resetPassword.html">忘记密码？</a></div>
+                        </div>
+                    </div>
+                </form>
+                <!--Tab2 end-->
+                
+            </div>
+            
+        </div>
+        <!-- cont end -->
+        
+    </div>
+    <!-- main end -->
+    
+    <!-- 页面底部 -->
+    <div id="footer" class="footer only-bottom"></div>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-26 16:27:19
+*/
+.search-my-course{}
+.search-my-course .container{
+    padding: 30px 0 30px 0;
+}
+.search-my-course .page-nav-title{
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.search-my-course .info-screen {
+	width: 1200px;
+	background: #fff; 
+}
+.search-my-course .info-screen > div a{
+    text-decoration: none;
+}
+.search-my-course .column {
+	line-height: 24px;
+	padding: 18px 20px;
+	color: #666;
+	 
+}
+.search-my-course .column.bor{
+	padding-top: 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+.search-my-course .column a {
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 20px;
+	color: #333;
+	display: inline-block; 
+}
+
+.search-my-course .column a:hover {
+	color: #cc0000; 
+}
+
+.search-my-course .column .active,
+.search-my-course .column .active:hover {
+	color: #fff!important;
+	 background: #cc0000;
+	 border-radius: 4px;
+	 position: relative;
+	 text-decoration: none;
+}
+.search-my-course .column .active i{
+	position: absolute;
+	right: 6px;
+	top: 8px;
+	z-index: 1;
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background: url(../../../img/cancel-search.png) no-repeat center center;
+	background-size: cover;
+}
+.search-my-course .tag {
+	height: 80px;
+	padding: 25px 20px; 
+}
+
+.search-my-course .tag a {
+	width: 150px;
+	height: 30px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 16px;
+	color: #cc0000;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	display: block;
+	float: left; 
+	text-decoration: none;
+}
+
+.search-my-course .tag .active {
+	color: #fff;
+	background: #cc0000;
+	border-color: #cc0000; 
+}
+
+.search-my-course .tag a + a {
+	margin-left: 10px; 
+}
+.search-my-course .intro-course{
+    padding: 20px 0 0;
+    overflow: hidden;
+}
+.search-my-course .intro-course .item{
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: left;
+    width: 390px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.search-my-course .intro-course .item:hover .teach{
+    top:0;
+    transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -webkit-transition: top 0.5s;
+    -o-transition: top 0.5s;
+}
+.search-my-course .intro-course .item.mg0{
+    margin: 0;
+}
+.search-my-course .intro-course .item > div{
+    height: 220px;
+}
+.search-my-course .intro-course .item > div img{
+    width: 100%;
+    height: 100%;
+}
+.search-my-course .intro-course .item .teach{
+    padding: 80px 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    color: #333333;
+    background-color: rgba(255,255,255,0.9);
+    transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -webkit-transition: top 0.5s;
+    -o-transition: top 0.5s;
+}
+.search-my-course .intro-course .item .teach .p1{
+    margin-bottom: 15px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.search-my-course .intro-course .item .teach .p2{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.search-my-course .intro-course .item .teach .p2 span{
+    background-color: #c00;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 3px;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+.search-my-course .intro-course .item .go-detail{
+    position: absolute;
+    bottom: -100%;
+    right: 0;
+    transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -webkit-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+}
+.search-my-course .intro-course .item:hover .go-detail{
+    bottom: 0;
+    transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -webkit-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+}

@@ -1,0 +1,117 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-13 14:10:16
+*/
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.main {
+	width: 1200px;	
+	margin: 0px auto;
+}
+
+.clear {
+	clear: both; 
+}
+
+
+
+/* help-menu */
+
+.nav-tabs li a {
+    margin-right: 0px;
+	padding: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-tabs li.active a,.nav-tabs li.active a:focus,.nav-tabs li.active a:hover {
+	color: #cc0000;
+    border: none;
+	border-left: 4px solid #cc0000;
+}
+
+.help-menu {
+	width: 200px;
+	min-height: 550px;
+	font-size: 22px;
+	color: #333;
+	padding-top: 30px;
+	border-right: 1px solid #e0e0e0;
+	float: left; 
+}
+
+.help-menu li {
+	margin-bottom: 0px; 
+	float: none; 
+}
+
+.help-menu li a {
+	line-height: 42px;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	padding-left: 20px;
+	border-left: 4px solid #fff;
+	display: block; 
+}
+
+.help-menu li a:hover {
+	color: #cc0000;
+	background: #fff;
+	border-left: 4px solid #fff; 
+}
+
+.help-menu p {
+	padding-left: 24px;
+	margin-bottom: 15px; 
+}
+
+.help-menu .line {
+	margin-top: 15px;
+	margin-bottom: 13px;
+	border-bottom: 1px solid #e0e0e0; 
+}
+
+
+
+/* help-right */
+
+.help-right {
+	width: 999px;
+	padding: 30px;
+	font-size: 14px;
+	color: #333;
+	float: left; 
+}
+
+.help-tit {
+	font-size: 22px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e0e0e0; 
+}
+
+.help-question {
+	line-height: 40px;
+	margin-top: 15px;
+	 
+}
+
+.help-answer {
+	line-height: 22px;
+	color: #666; 
+}
+
+
+
+/*  */
+
+.pt30px {
+	padding-top: 30px; 
+}

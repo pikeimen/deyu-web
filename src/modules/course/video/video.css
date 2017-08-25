@@ -1,0 +1,157 @@
+/*
+* @Author: vip
+* @Date:   2017-07-13 09:50:13
+* @Last Modified by:   vip
+* @Last Modified time: 2017-07-21 10:36:54
+*/
+.play-video{
+    background-color: #f2f2f2;
+}
+.play-video .play{
+    overflow: hidden;
+}
+.play-video .play > div{
+    float: left;
+    background-color: #fff;
+}
+.play-video .play .video-list{
+    width:290px;
+    margin-right: 10px;
+    padding: 15px;
+}
+.play-video .play .video-list .title{
+    font-size: 20px;
+    color: #333333;
+    margin: 20px 0 30px;
+}
+.play-video .play .video-list .teach{
+    padding: 10px 0 15px 0;
+    font-size: 14px;
+}
+.play-video .play .playing{
+    width: 900px;
+}
+.play-video .play .playing .player{
+    position: relative;
+}
+.play-video .play .playing .player .no-play{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+}
+.play-video .play .playing .player .no-play > div{
+    margin-top: 210px;
+    padding: 30px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 20px;
+}
+.play-video .video-list .list{
+    height: 590px;
+    overflow: auto; 
+    margin: 10px 0 0;
+}
+.play-video .video-list .list .item{
+    margin-bottom: 25px;
+    padding: 13px 3px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.play-video .video-list .list .item:last-child{
+    margin-bottom: 0;
+}
+.play-video .video-list .list .item:hover{
+    background-color: #eeeeee;
+}
+.play-video .video-list .list .item p{
+    font-size: 14px;
+    color: #333333;
+}
+.play-video .video-list .list .item p span{
+    display: inline-block;
+    width: 165px;
+    overflow:hidden;
+    text-overflow:ellipsis;  
+    white-space: nowrap;
+}
+.play-video .video-list .list .item p i{
+    margin: 0 6px 0 5px;
+    display: inline-block;
+    float: left;
+    width: 21px;
+    height: 15px;
+    background-image: url(../../../img/course-detail04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.play-video .video-list .list .item:hover p i{
+    background-image: url(../../../img/course-detail05.jpg);
+}
+.play-video .video-list .list .item p a{
+    float: right;
+}
+.play-video .video-list .list .item p .free{
+    color: #007f24;
+}
+.play-video .video-list .list .item p .pay{
+    color: #cc0000;
+}
+
+.play-video .playing{}
+.play-video .playing .play-other{
+    padding: 0 30px;
+}
+.play-video .playing .play-other .next-last{
+    padding: 30px 0;
+    overflow: hidden;
+}
+.play-video .playing .play-other .next-last a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border: solid 1px #595b5b;
+    text-align: center;
+    font-size: 18px;
+}
+.play-video .playing .play-other .next-last a:hover{
+    text-decoration: none;
+}
+.play-video .playing .play-other .next-last a.last{
+    float: left;
+}
+.play-video .playing .play-other .next-last a.next{
+    float: right;
+    color: #fff;
+    background-color: #cc0000;
+    border: 0;
+}
+.play-video .playing .play-other .next-last a.disabled{
+    background-color: #cccccc;
+    color: #fff;
+    border-color: #cccccc;
+    cursor: auto;
+}
+.play-video .playing .play-other .video-intro{}
+.play-video .playing .play-other .video-intro p{
+    font-size: 14px;
+}
+.play-video .playing .play-other .video-intro p:first-child{
+    margin: 20px 0 30px;
+    color: #333333;
+}
+.play-video .playing .play-other .video-intro p:last-child{
+    margin: 0 0 10px;
+    height: 55px;
+    line-height: 16px;
+    color: #777;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
