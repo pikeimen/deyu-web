@@ -1,0 +1,42 @@
+{
+  "name": "deyu",
+  "version": "1.0.0",
+  "description": "jquery + webpack工程",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&&webpack-dev-server -p --progress --colors",
+    "test": "set NODE_ENV=test&&webpack-dev-server -p --progress --colors",
+    "pro": "set NODE_ENV=pro&&webpack-dev-server -p --progress --colors",
+    "auto": "set NODE_ENV=auto&&webpack-dev-server -p --progress --colors",
+    "pack-dev": "set NODE_ENV=dev&&webpack -p --progress --colors",
+    "pack-test": "set NODE_ENV=test&&webpack -p --progress --colors",
+    "pack-pro": "set NODE_ENV=pro&&webpack -p --progress --colors",
+    "pack-auto": "set NODE_ENV=auto&&webpack -p --progress --colors"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.0",
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "babel-runtime": "^5.5.8",
+    "clean-webpack-plugin": "^0.1.9",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.14.5",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.11.2",
+    "glob": "^7.1.1",
+    "globule": "^1.0.0",
+    "html-webpack-plugin": "^1.7.0",
+    "http-server": "^0.9.0",
+    "node-libs-browser": "^0.5.2",
+    "postcss-loader": "^0.4.4",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.11",
+    "webpack-validator": "^2.2.2"
+  }
+}
